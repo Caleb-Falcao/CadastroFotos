@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+  #videoElement {
+    height: 500px;
+    width: 50%; /* Redimensiona o vídeo para 80% da largura do seu container */
+    margin: 0; /* Centraliza o vídeo horizontalmente */
+    padding: 20px; /* Adiciona espaço em torno do vídeo */
+  }
+  
+  #canvas{
+    height: 200%;
+    width: 200%;
+    padding: 20px;
+  }
