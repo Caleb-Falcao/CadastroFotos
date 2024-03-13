@@ -2,7 +2,7 @@ const video = document.querySelector("#videoElement");
 const canvas = document.querySelector("#canvas");
 const context = canvas.getContext("2d");
 const captureButton = document.querySelector("#capture");
-const constraintVideo = {video:{facingMode: "environment", aspectRatio: 14/16}};
+const constraintVideo = {video:{facingMode: "environment", aspectRatio: 14/16, focusMode: "continuous" }};
 
 if (navigator.mediaDevices.getUserMedia) {
   navigator.mediaDevices
